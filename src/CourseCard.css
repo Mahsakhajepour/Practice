@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+li {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  color: #222;
+  background-color: #fff;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+li.selected {
+  background-color: #1e3a5f;
+  color: aliceblue;
+  border-color: #1e3a5f;
+}
+
+button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
